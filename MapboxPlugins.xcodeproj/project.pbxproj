@@ -10,12 +10,14 @@
 		2B0CE61E11B5AECC852262B1 /* libPods-PluginKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E804A8391EBCA17A19F6AB /* libPods-PluginKit.a */; };
 		3CCAC1DF6977DA0D057701CB /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146EAF023797AB1FEE660581 /* libPods-TestApp.a */; };
 		3E0EC62B1F5779C5006BC03F /* MBXTrafficPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EC6291F5779C5006BC03F /* MBXTrafficPlugin.m */; };
+		3E2625E11FB66F9F005BD079 /* MBXStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2625E01FB66F9F005BD079 /* MBXStaticCluster.m */; };
 		3E4BC9501F5F303B0015CF25 /* MBXTrafficPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0EC62A1F5779C5006BC03F /* MBXTrafficPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E4BC9511F5F30530015CF25 /* MBXTrafficPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EC6291F5779C5006BC03F /* MBXTrafficPlugin.m */; };
 		3E8BF7BB1F63655F0087C80E /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8BF7BA1F63655F0087C80E /* Mapbox.framework */; };
 		3E8BF7BC1F6367270087C80E /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8BF7BA1F63655F0087C80E /* Mapbox.framework */; };
 		3E8BF7BE1F6367270087C80E /* Mapbox.framework.dSYM in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8BF7BD1F6367270087C80E /* Mapbox.framework.dSYM */; };
 		3E8DA5891F85626700D7A962 /* MBXClusteringPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DA5881F85626700D7A962 /* MBXClusteringPlugin.m */; };
+		3EC76DAB1FB51F2D00C3BB69 /* MBXQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC76DAA1FB51F2D00C3BB69 /* MBXQuadTree.m */; };
 		DA88057D1ED34744000CB4A8 /* MapboxPluginKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA88057A1ED34744000CB4A8 /* MapboxPluginKit.h */; };
 		DA8805861ED34868000CB4A8 /* MBXPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8805811ED34787000CB4A8 /* MBXPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA88058A1ED34CD2000CB4A8 /* PluginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8805891ED34CD2000CB4A8 /* PluginTableViewController.m */; };
@@ -70,12 +72,18 @@
 		3E0EC6291F5779C5006BC03F /* MBXTrafficPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBXTrafficPlugin.m; path = TrafficPlugin/MBXTrafficPlugin.m; sourceTree = SOURCE_ROOT; };
 		3E0EC62A1F5779C5006BC03F /* MBXTrafficPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBXTrafficPlugin.h; path = TrafficPlugin/MBXTrafficPlugin.h; sourceTree = SOURCE_ROOT; };
 		3E0EC62D1F577BBE006BC03F /* MBXPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBXPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E2625DB1FB66C7D005BD079 /* MBXClusterItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXClusterItem.h; sourceTree = "<group>"; };
+		3E2625DE1FB66D6C005BD079 /* MBXCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXCluster.h; sourceTree = "<group>"; };
+		3E2625DF1FB66F9F005BD079 /* MBXStaticCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXStaticCluster.h; sourceTree = "<group>"; };
+		3E2625E01FB66F9F005BD079 /* MBXStaticCluster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXStaticCluster.m; sourceTree = "<group>"; };
 		3E45FEBC1F588709001EB296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4BC9521F5F32360015CF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = LocalizationPlugin/Info.plist; sourceTree = SOURCE_ROOT; };
 		3E8BF7BA1F63655F0087C80E /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = "Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework"; sourceTree = "<group>"; };
 		3E8BF7BD1F6367270087C80E /* Mapbox.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Mapbox.framework.dSYM; path = "Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"; sourceTree = "<group>"; };
 		3E8DA5871F85626700D7A962 /* MBXClusteringPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXClusteringPlugin.h; sourceTree = "<group>"; };
 		3E8DA5881F85626700D7A962 /* MBXClusteringPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXClusteringPlugin.m; sourceTree = "<group>"; };
+		3EC76DA91FB51F2D00C3BB69 /* MBXQuadTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXQuadTree.h; sourceTree = "<group>"; };
+		3EC76DAA1FB51F2D00C3BB69 /* MBXQuadTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXQuadTree.m; sourceTree = "<group>"; };
 		501DF0FB86B059E1610DAD80 /* Pods-PluginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginKit/Pods-PluginKit.debug.xcconfig"; sourceTree = "<group>"; };
 		63E804A8391EBCA17A19F6AB /* libPods-PluginKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PluginKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B60D90E910B312EEAE3F074 /* Pods-PluginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginKit/Pods-PluginKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,13 +139,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2625DA1FB66C63005BD079 /* Clustering */ = {
+			isa = PBXGroup;
+			children = (
+				3E2625DB1FB66C7D005BD079 /* MBXClusterItem.h */,
+				3E2625DE1FB66D6C005BD079 /* MBXCluster.h */,
+				3E2625DF1FB66F9F005BD079 /* MBXStaticCluster.h */,
+				3E2625E01FB66F9F005BD079 /* MBXStaticCluster.m */,
+			);
+			path = Clustering;
+			sourceTree = "<group>";
+		};
 		3E8DA5861F85621000D7A962 /* ClusteringPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				3EC76DA81FB51F0F00C3BB69 /* QuadTree */,
 				3E8DA5871F85626700D7A962 /* MBXClusteringPlugin.h */,
+				3E2625DA1FB66C63005BD079 /* Clustering */,
 				3E8DA5881F85626700D7A962 /* MBXClusteringPlugin.m */,
 			);
 			path = ClusteringPlugin;
+			sourceTree = "<group>";
+		};
+		3EC76DA81FB51F0F00C3BB69 /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				3EC76DA91FB51F2D00C3BB69 /* MBXQuadTree.h */,
+				3EC76DAA1FB51F2D00C3BB69 /* MBXQuadTree.m */,
+			);
+			path = QuadTree;
 			sourceTree = "<group>";
 		};
 		3EEB5A7C1F4F7ED9008E73B6 /* TrafficPlugin */ = {
@@ -531,6 +561,8 @@
 			files = (
 				DAF50B2B1ECA15B50044B316 /* AppDelegate.m in Sources */,
 				3E0EC62B1F5779C5006BC03F /* MBXTrafficPlugin.m in Sources */,
+				3E2625E11FB66F9F005BD079 /* MBXStaticCluster.m in Sources */,
+				3EC76DAB1FB51F2D00C3BB69 /* MBXQuadTree.m in Sources */,
 				DA88058A1ED34CD2000CB4A8 /* PluginTableViewController.m in Sources */,
 				DAF50B2E1ECA15B50044B316 /* MasterViewController.m in Sources */,
 				3E8DA5891F85626700D7A962 /* MBXClusteringPlugin.m in Sources */,
