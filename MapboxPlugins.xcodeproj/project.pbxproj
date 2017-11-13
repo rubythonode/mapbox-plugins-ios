@@ -76,6 +76,7 @@
 		3E2625DE1FB66D6C005BD079 /* MBXCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXCluster.h; sourceTree = "<group>"; };
 		3E2625DF1FB66F9F005BD079 /* MBXStaticCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXStaticCluster.h; sourceTree = "<group>"; };
 		3E2625E01FB66F9F005BD079 /* MBXStaticCluster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXStaticCluster.m; sourceTree = "<group>"; };
+		3E2625E31FB67796005BD079 /* MBCClusterAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCClusterAlgorithm.h; sourceTree = "<group>"; };
 		3E45FEBC1F588709001EB296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4BC9521F5F32360015CF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = LocalizationPlugin/Info.plist; sourceTree = SOURCE_ROOT; };
 		3E8BF7BA1F63655F0087C80E /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = "Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework"; sourceTree = "<group>"; };
@@ -142,12 +143,21 @@
 		3E2625DA1FB66C63005BD079 /* Clustering */ = {
 			isa = PBXGroup;
 			children = (
+				3E2625E21FB67770005BD079 /* Algorithm */,
 				3E2625DB1FB66C7D005BD079 /* MBXClusterItem.h */,
 				3E2625DE1FB66D6C005BD079 /* MBXCluster.h */,
 				3E2625DF1FB66F9F005BD079 /* MBXStaticCluster.h */,
 				3E2625E01FB66F9F005BD079 /* MBXStaticCluster.m */,
 			);
 			path = Clustering;
+			sourceTree = "<group>";
+		};
+		3E2625E21FB67770005BD079 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3E2625E31FB67796005BD079 /* MBCClusterAlgorithm.h */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		3E8DA5861F85621000D7A962 /* ClusteringPlugin */ = {
